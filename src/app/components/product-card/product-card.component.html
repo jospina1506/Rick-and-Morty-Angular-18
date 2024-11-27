@@ -1,0 +1,8 @@
+<article class="product" [ngStyle]="{'background-color': color()}">
+    <h3>{{product().name}}</h3>
+    <p>{{product().description}}</p>
+    <p>Precio: € {{product().price}}</p>
+    <button>Ver producto</button>
+
+    <img [src]="product().image">
+</article>

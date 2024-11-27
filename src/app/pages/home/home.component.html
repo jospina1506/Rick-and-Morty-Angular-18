@@ -1,0 +1,18 @@
+<main>
+  <h1>Titulo1 prueba</h1>
+  <p>este es el componente home!</p>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam cupiditate magni provident quam, adipisci facilis! Totam, error natus tenetur officiis voluptatem aliquam ipsam itaque non sequi aut. Qui, dicta quasi.</p>
+
+  <section class="products">
+    @for (product of productList; track $index) {
+      @if (product.price > 2){
+        <app-product-card [product]="product" color="white" ></app-product-card> 
+      } @else {
+        <app-product-card [product]="product" color="#fff3ee" ></app-product-card> 
+      }
+    }
+    
+    
+      
+  </section>
+</main>
