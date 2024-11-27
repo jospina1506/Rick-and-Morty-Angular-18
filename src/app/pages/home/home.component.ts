@@ -50,8 +50,8 @@ export class HomeComponent{
       image: 'img/chocolate.jpeg'
     },
     {
-      name: 'Salchicha',
-      description: 'Paquete de salchicha',
+      name: 'Lentejas',
+      description: 'Paquete de lentejas',
       price: 1.90,
       image: 'img/chocolate.jpeg'
     }
